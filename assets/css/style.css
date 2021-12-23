@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*We just told every element on the page to not have any margin or border unless we explicitly tell it to. Now we don't have to concern ourselves with undoing built-in browser styles one by one.
+
+The asterisk * we used here is used quite often in programming. It is typically called a wildcard, but in CSS it is known as a universal selector. This is essentially a catch-all selector that says, "I won't match one thing—I'll match everything!"*/
+
+/*im a css comment*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #39a6b2;
+    
+}
+
+/* apply styles to <header>*/
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+header a{
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline; /*sets nav links horizontally*/
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
