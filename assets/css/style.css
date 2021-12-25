@@ -88,8 +88,6 @@ section {
     /*To enable the absolute positioning of the form container to be taken relative to the hero section, we need to make the hero section's position relative*/
 }
 
-
-
 .hero-form {
     background-color: #fce138;
     padding: 20px;
